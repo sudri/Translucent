@@ -21,7 +21,7 @@
     UIImage* imageOfUnderlyingView = [self convertViewToImage];
     self.translucentView.alpha = 1.0f;
     imageOfUnderlyingView = [imageOfUnderlyingView applyBlurWithRadius:20
-                                                             tintColor:[UIColor colorWithWhite:1.0 alpha:0.2]
+                                                             tintColor:[UIColor colorWithWhite:1.0 alpha:0.8]
                                                  saturationDeltaFactor:1.3
                                                              maskImage:nil];
     
