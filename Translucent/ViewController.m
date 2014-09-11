@@ -28,7 +28,8 @@
     self.translucentView.backgroundColor = [UIColor clearColor];
     UIImageView* backView = [[UIImageView alloc] initWithFrame:self.translucentView.frame];
     backView.image = imageOfUnderlyingView;
-    [self.translucentView addSubview:backView];
+    [self.translucentView insertSubview:backView atIndex:0];
+
 }
 
 -(UIImage *)convertViewToImage
